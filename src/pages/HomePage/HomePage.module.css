@@ -1,0 +1,24 @@
+.homePage {
+  min-height: 50vh;
+}
+
+.hero {
+  text-align: center;
+  padding: var(--spacing-24) var(--spacing-8);
+  background-color: var(--color-beige-2);
+}
+
+.hero h1 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-9xl);
+  color: var(--color-raspberry);
+  margin-bottom: var(--spacing-6);
+}
+
+.hero p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-xl);
+  color: var(--color-black-soft);
+  max-width: 600px;
+  margin: 0 auto;
+}
